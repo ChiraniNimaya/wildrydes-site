@@ -2,7 +2,6 @@ window._config = {
     cognito: {
         userPoolId: 'eu-north-1_XyTgDpD1f', // e.g. us-east-2_uXboG5pAb
         userPoolClientId: '2m7c57sne78eiqcunvu0gn7926', // e.g. 25ddkmj4v6hfsfvruhpfi7n4hv
-        userPoolClientSecret:  process.env.REACT_APP_COGNITO_CLIENT_SECRET,
         region: 'eu-north-1' // e.g. us-east-2
     },
     api: {
